@@ -1,0 +1,6 @@
+function [outputArg1,outputArg2] = o1transfer(N,fs,w0,a0,a1)
+%O1TRANSFER Summary of this function goes here
+%   Detailed explanation goes here
+    s = linspace(0,fs,N);
+end
+
