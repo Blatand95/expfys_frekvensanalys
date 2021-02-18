@@ -1,0 +1,8 @@
+function [Y,f] = fft2NdB(y,fs)
+%FFT2NDB transforms the signal to the frequency-domain, normalised 
+    Fy = fft(y,length(y());
+    P2 = abs(Fy);
+    P1 = P2(1:
+    
+end
+
