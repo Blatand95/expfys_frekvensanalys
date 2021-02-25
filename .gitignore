@@ -3,3 +3,6 @@
 
 # ignore matlab data files
 *.mat
+
+# ignore pdf:s
+*.pdf
